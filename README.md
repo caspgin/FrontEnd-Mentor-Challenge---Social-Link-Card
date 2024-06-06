@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ/solutions/new)
-- Live Site URL: [Add live site URL here](https://github.com/caspgin/FrontEnd-Mentor-Challenge---Social-Link-Card)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-social-link-card-using-flexbox-and-tailwindcss-SOfE_jUuzI)
+- Live Site URL: [Add live site URL here](https://caspgin.github.io/FrontEnd-Mentor-Challenge---Social-Link-Card/)
 
 
 ### Built with
