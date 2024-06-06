@@ -20,10 +20,11 @@ main{
 	background-color: green;
 }
 
-li>a:hover, li>a:focus{
+li:hover, li:focus-within{
 	background-color: #c4f82a;
 	color: #141414;
 	font-style: bold;
+	transition: color 0s;
 }
 
 .anchor-underline-cover{
