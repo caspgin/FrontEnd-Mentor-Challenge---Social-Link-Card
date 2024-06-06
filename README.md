@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ/solutions/new)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://github.com/caspgin/FrontEnd-Mentor-Challenge---Social-Link-Card)
 
 
 ### Built with
