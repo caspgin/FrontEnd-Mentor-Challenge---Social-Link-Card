@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
 .inter-400 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -9,12 +10,6 @@
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
-}
-
-button:hover, button:focus{
-	background-color: #c4f82a;
-	color: #141414;
-	font-style: bold;
 }
 
 *{
@@ -25,12 +20,20 @@ main{
 	background-color: green;
 }
 
-.anc{
-	position: relative;
-	overflow: hidden;
+li>a:hover, li>a:focus{
+	background-color: #c4f82a;
+	color: #141414;
+	font-style: bold;
 }
 
-.anc > a::after{
+.anchor-underline-cover{
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+	margin-left: 4px;
+}
+
+.anchor-underline-cover > a::after{
 	content:'';
 	position: absolute;
 	top:0;
@@ -42,7 +45,8 @@ main{
 	transition: transform 600ms ease-in-out;
 }
 
-.anc > a:hover::after, .anc > a:focus::after{
+.anchor-underline-cover > a:hover::after, .anchor-underline-cover > a:focus::after{
 	transform:translateX(0);
 }
+
 
